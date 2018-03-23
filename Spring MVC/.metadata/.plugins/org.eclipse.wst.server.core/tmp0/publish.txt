@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Mar 23 16:58:05 IST 2018
+org.eclipse.jst.jee.server\:/binary\:E\:\\javainterviewpoint\\Spring\ MVC\\Spring4ControllerAsRESTFullService\\WebContent\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE.jar=WEB-INF/lib/spring-web-4.2.4.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:E\:\\javainterviewpoint\\Spring\ MVC\\Spring4ControllerAsRESTFullService\\WebContent\\WEB-INF\\lib\\spring-web-4.2.4.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.2.4.RELEASE-sources.jar

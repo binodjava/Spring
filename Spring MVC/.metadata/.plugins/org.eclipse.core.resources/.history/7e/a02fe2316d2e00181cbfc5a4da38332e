@@ -1,0 +1,11 @@
+package com.jlcindia.spring.mvc;
+
+public class Contact {
+	private int cid;
+	private String name;
+	private String email;
+	private long phone;
+	
+	
+
+}

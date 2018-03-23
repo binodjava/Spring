@@ -1,0 +1,15 @@
+package com.jlcindia.spring.mvc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.jlcindia.Contact;
+
+
+@Controller
+@RequestMapping("/contacts")
+public class ContactController {
+List<Contact> list=new ArrayList<>();
+}

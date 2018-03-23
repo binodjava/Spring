@@ -1,0 +1,18 @@
+package com.jlcindia.spring.test;
+
+import java.util.List;
+
+import org.springframework.web.client.RestTemplate;
+
+public class ClientB {
+	public static void main(String[] args) {
+
+		RestTemplate rTemp = new RestTemplate();
+		System.out.println("All Contacts");
+
+		List<Contact> list = rTemp.getForObject("http://localhost:8888/Spring3ClientToConsumeRESTFULService/rest/contacts/",List<Contact>.class);
+		System.out.println(list);
+		System.out.println("---Done---");
+	}
+
+}
